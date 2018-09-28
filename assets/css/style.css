@@ -1,0 +1,340 @@
+body {
+    background: url(../images/gravel.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ffffff;
+    position: relative; 
+    height: 100px;
+    width: 100%;
+    border-bottom: 2px solid #cccccc;
+}
+
+h1 {
+    position: absolute;
+    background-color: #4aaaa5;
+    color: white;
+    height: 100px;
+    margin-top: 0;
+    left: 270px;
+    /* next 3 lines center text */
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px;
+    padding: 0 10px 0 10px;
+}
+
+nav {
+    position: absolute;
+    right: 270px;
+    /* next 3 lines center text */
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: #777777; 
+}
+
+.portfolio {
+    border-left: thin solid black;
+    padding: 0 5px 0 10px;
+}
+
+.about {
+    padding: 0 5px 0 0;
+}
+
+.contact {
+    border-left: thin solid black; 
+    padding: 0 0 0 10px;
+}
+
+section {
+    position: relative;
+    top: 50px;
+    background-color: white;
+    height: 400px;
+    width: 960px;
+    margin: 0 auto;
+    padding: 20px 20px 20px 20px;
+    color: #ffffff;
+}
+
+
+h2 {
+    color: #4aaaa5;
+    margin: 0;
+}
+
+hr {
+    margin: 20px 0 20px 0;
+}
+
+img {
+    float: left;
+    padding: 0 10px 0 0;
+    margin-right: 20px; 
+}
+
+p {
+    display: inline;
+    font-size: 16pt;
+    color: #777777
+}
+
+footer {
+    position: fixed;
+    border-top: 5px solid #4aaaa5;
+    height: 40px;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background: #666666
+}
+
+div {
+    position: relative;
+    top: 20px;
+    color: white;
+}
+
+.block1 {
+    position: relative;
+    top: 25px;
+    background-color: white;
+    height: 480px;
+    width: 960px;
+    padding: 20px 20px 20px 20px;
+    color: #ffffff;
+    margin: 0 auto;
+}
+
+.block1p {
+    display: inline;
+    font-size: 22pt;
+    font-weight: bold;
+    color: #4aaaa5;
+}
+
+.robot {
+    height: 110px;
+    width: 270px;
+}
+
+.game {
+    height: 110px;
+    width: 270px;
+}
+
+.trivia {
+    position: relative;
+    top: 130px;
+    right: 600px;
+    height: 110px;
+    width: 270px;
+}
+
+.rutgers {
+    position: relative;
+    height: 110px;
+    width: 270px;
+    left: 300px;
+    top: 20px;
+}
+
+.rock {
+    position: relative;
+    height: 110px;
+    width: 270px;
+    top: 150px;
+    right: 300px;
+}
+
+.box1 {
+    position: absolute;
+    background-color: #4aaaa5;
+    height: 40px;
+    width: 270px;
+    top: 160px;
+    font-size: 20pt;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+    color: white;
+}
+
+.box2 {
+    position: absolute;
+    background-color: #4aaaa5;
+    height: 40px;
+    width: 270px;
+    top: 160px;
+    left: 320px;
+    font-size: 20pt;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+    color: white;
+}
+
+.box3 {
+    position: absolute;
+    background-color: #4aaaa5;
+    height: 40px;
+    width: 270px;
+    top: 290px;
+    font-size: 20pt;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+    color: white;
+}
+
+.box4 {
+    position: absolute;
+    background-color: #4aaaa5;
+    height: 40px;
+    width: 270px;
+    left: 320px;
+    top: 290px;
+    font-size: 20pt;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+    color: white;
+}
+
+.box5 {
+    position: absolute;
+    background-color: #4aaaa5;
+    height: 40px;
+    width: 270px;
+    top: 420px;
+    font-size: 20pt;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+    color: white;
+}
+
+.block2 {
+    position: relative;
+    top: 25px;
+    background-color: white;
+    height: 480px;
+    width: 960px;
+    padding: 20px 20px 20px 20px;
+    color: #ffffff;
+    margin: 0 auto;
+}
+
+.block2p {
+    display: inline;
+    font-size: 22pt;
+    font-weight: bold;
+    color: #4aaaa5;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.container {
+    padding: 20px;
+}
+
+.fun {
+    color: black;
+}
+
+.morefun {
+    color: black;
+}
+
+.mostfun {
+    color: black
+}
+@media only screen and (max-width: 980px) {
+
+    section {
+        margin: 0 50px 0 50px; 
+        width: 600px;
+        height: 530px;
+    }
+
+    h1 {
+        position: absolute;
+        left: 50px;
+    }
+
+    nav {
+        position: absolute;
+        right: 50px;
+    }
+
+}
+@media only screen and (max-width: 768px) {
+
+    section {
+        margin: 0 50px 0 50px; 
+        width: 650px;
+        height: 550px;
+    }
+
+    h1 {
+        position: absolute;
+        left: 50px;
+    }
+
+    nav {
+        position: absolute;
+        right: 50px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+
+    section {
+        height: 450px;
+        width: 300px;
+
+    }
+    
+    p {
+        height: 50px;
+        font-size: 7pt;
+    }
+
+    h1 {
+        width: 100%;
+    }
+
+    a { 
+       font-size: 10pt;
+    }
+
+    nav {
+        display: inline-block;
+    }
+}
